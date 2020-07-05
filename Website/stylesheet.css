@@ -44,6 +44,7 @@ button {
   animation-duration: 5s;
   outline: none;
   background-color: transparent;
+  border: none;
 }
 
 @keyframes buttons {
