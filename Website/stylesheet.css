@@ -51,7 +51,6 @@ button {
 }
 
 @keyframes buttons {
-  0% {opacity: 0.1}
-  50% {opacity: 0.5}
-  100% {opacity: 1}
+  from {opacity: 0.1}
+  to {opacity: 1}
 }
