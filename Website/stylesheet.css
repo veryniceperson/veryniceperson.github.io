@@ -42,9 +42,12 @@ button {
   text-align: center;
   animation-delay: 2s;
   animation-duration: 5s;
-  outline: none;
-  background-color: transparent;
+  background-color: Transparent;
+  background-repeat:no-repeat;
   border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
 }
 
 @keyframes buttons {
