@@ -31,3 +31,12 @@ video {
   overflow: hidden;
   filter: brightness(50%);
 }
+
+button {
+  border: 2px;
+  border-color: white;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+
+}
