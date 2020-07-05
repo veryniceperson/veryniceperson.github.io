@@ -20,6 +20,7 @@ h2 {
   font-weight: lighter;
   animation-duration: 5s;
   animation-delay: 0s;
+  animation-name: left_to_normal;
 }
 
 video {
@@ -50,7 +51,7 @@ button {
   outline:none;
 }
 
-@keyframes h2 {
-  from {opacity: 0.1}
-  to {opacity: 1}
+@keyframes left_to_normal{
+  0% {left:0px;}
+  100% {position: relative;}
 }
