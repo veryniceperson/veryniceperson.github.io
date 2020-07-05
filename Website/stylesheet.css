@@ -32,7 +32,7 @@ video {
   filter: brightness(50%);
 }
 
-button {
+.buttons {
   padding-left: 40%;
   padding-right: 40%;
   font-size: 38px;
