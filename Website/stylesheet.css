@@ -33,7 +33,9 @@ video {
 }
 
 button {
-  margin: 40%;
+  padding-left: 40%;
+  padding-right: 40%;
+  font-size: 38px;
   border-color: white;
   color: white;
   font-family: 'Roboto Mono', monospace;
