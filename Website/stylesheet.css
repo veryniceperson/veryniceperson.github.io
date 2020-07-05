@@ -18,6 +18,8 @@ h2 {
   font-family: 'Roboto Mono', monospace;
   font-size: 38px;
   font-weight: lighter;
+  animation-duration: 5s;
+  animation-delay: 0s;
 }
 
 video {
@@ -40,18 +42,15 @@ button {
   color: white;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
-  animation-delay: 2s;
-  animation-duration: 5s;
   background-color: Transparent;
   background-repeat:no-repeat;
   border: none;
   cursor:pointer;
   overflow: hidden;
   outline:none;
-  animation-iteration-count: 1;
 }
 
-@keyframes buttons {
+@keyframes h2 {
   from {opacity: 0.1}
   to {opacity: 1}
 }
