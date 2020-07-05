@@ -42,6 +42,8 @@ button {
   text-align: center;
   animation-delay: 2s;
   animation-duration: 5s;
+  outline: none;
+  background-color: transparent;
 }
 
 @keyframes buttons {
