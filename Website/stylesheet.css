@@ -32,7 +32,7 @@ video {
   filter: brightness(50%);
 }
 
-.buttons, button {
+button {
   width: 40%;
   height: 10%;
   font-size: 38px;
@@ -42,15 +42,10 @@ video {
   text-align: center;
   animation-delay: 2s;
   animation-duration: 5s;
-  background-color: black;
 }
 
 @keyframes buttons {
   0% {opacity: 0.1}
   50% {opacity: 0.5}
   100% {opacity: 1}
-}
-
-.Step1_button {
-  float: left;
 }
