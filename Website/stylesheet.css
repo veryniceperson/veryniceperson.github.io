@@ -48,6 +48,7 @@ button {
   cursor:pointer;
   overflow: hidden;
   outline:none;
+  animation-iteration-count: 1;
 }
 
 @keyframes buttons {
