@@ -49,4 +49,6 @@ button {
 
 button:hover {
   color: grey;
+  font-weight: bolder;
+  font-size: 40px;
 }
