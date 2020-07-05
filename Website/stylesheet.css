@@ -18,10 +18,6 @@ h2 {
   font-family: 'Roboto Mono', monospace;
   font-size: 38px;
   font-weight: lighter;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-name: appear;
-  position: relative;
 }
 
 video {
@@ -50,9 +46,4 @@ button {
   cursor:pointer;
   overflow: hidden;
   outline:none;
-}
-
-@keyframes appear{
-  0% {left:0px;}
-  100% {left: 10%;}
 }
