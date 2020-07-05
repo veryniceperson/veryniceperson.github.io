@@ -40,7 +40,9 @@ video {
   color: white;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
-
+  animation-delay: 2s;
+  animation-duration: 5s;
+  background-color: black;
 }
 
 @keyframes buttons {
