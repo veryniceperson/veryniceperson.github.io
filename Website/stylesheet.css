@@ -36,13 +36,12 @@ button {
   width: 45%;
   height: 10%;
   font-size: 38px;
-  border-color: white;
   color: white;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
   background-color: Transparent;
   background-repeat:no-repeat;
-  border: 1px;
+  border: none;
   cursor:pointer;
   overflow: hidden;
   outline:none;
