@@ -60,9 +60,12 @@ video {
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   height: 5%;
+  z-index: 100;
 }
 
 .navbar a {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
   float: left;
   display: block;
   color: white;
