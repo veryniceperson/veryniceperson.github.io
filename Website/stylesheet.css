@@ -63,7 +63,7 @@ video {
   z-index: 100;
 }
 
-.navbar a {
+.navbar button {
   font-family: 'Roboto Mono', monospace;
   font-size: 28px;
   float: left;
@@ -74,7 +74,7 @@ video {
   text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar button:hover {
   background: grey;
   color: black;
 }
