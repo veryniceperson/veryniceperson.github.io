@@ -32,7 +32,7 @@ video {
   filter: brightness(50%);
 }
 
-button {
+.homepage_buttons {
   width: 45%;
   height: 10%;
   font-size: 38px;
@@ -47,7 +47,7 @@ button {
   outline:none;
 }
 
-button:hover {
+.homepage_buttons:hover {
   color: grey;
   font-weight: bolder;
   font-size: 39px;
