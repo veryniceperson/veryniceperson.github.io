@@ -52,3 +52,25 @@ video {
   font-weight: bolder;
   font-size: 39px;
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding-bottom: 5%;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: grey;
+  color: black;
+}
