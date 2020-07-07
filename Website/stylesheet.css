@@ -118,3 +118,10 @@ video {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.navigation {
+  z-index: 100;
+  top: 0px;
+  width: 100%;
+  position: fixed;
+}
