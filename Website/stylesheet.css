@@ -58,6 +58,7 @@ video {
   background-color: Transparent;
   font-family: 'Roboto Mono', monospace;
   top: 0px;
+  z-index: 100;
 }
 
 .navbar a {
@@ -96,7 +97,7 @@ video {
   background-color: Transparent;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 10;
+  z-index: 100;
   top: 0px;
 }
 
