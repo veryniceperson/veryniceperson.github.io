@@ -116,5 +116,6 @@ video {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  background-color: black;
   color: white;
 }
