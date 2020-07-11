@@ -63,7 +63,7 @@ video {
 }
 
 .navbar a {
-  float: none;
+  float: left;
   font-size: 16px;
   color: white;
   text-align: center;
