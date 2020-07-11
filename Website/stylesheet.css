@@ -85,6 +85,7 @@ video {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  text-align: center;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
