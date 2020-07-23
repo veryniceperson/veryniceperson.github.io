@@ -20,6 +20,14 @@ h2 {
   font-weight: lighter;
 }
 
+li {
+  color: white;
+  text-align: left;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
 video {
   position: relative;
   background-position: absolute;
