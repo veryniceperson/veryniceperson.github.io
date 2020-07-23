@@ -20,6 +20,14 @@ h2 {
   font-weight: lighter;
 }
 
+h3 {
+color: white;
+text-align: center;
+font-family: 'Roboto Mono', monospace;
+font-size: 38px;
+font-weight: bold;
+}
+
 li {
   color: white;
   text-align: left;
@@ -126,4 +134,9 @@ video {
   display: block;
   background-color: black;
   color: white;
+}
+
+.HTMLcode_parts img {
+  float: right;
+  margin-left: 5%;
 }
