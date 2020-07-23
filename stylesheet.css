@@ -46,6 +46,7 @@ video {
   justify-content: center;
   overflow: hidden;
   filter: brightness(50%);
+  z-index: -1;
 }
 
 .homepage_buttons {
