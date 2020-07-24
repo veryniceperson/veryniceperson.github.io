@@ -150,3 +150,9 @@ video {
   margin-left: 2%;
   z-index: 0;
 }
+
+.HTML_hierarchy img {
+  float: right;
+  margin-left: 2%;
+  z-index: 0;
+}
