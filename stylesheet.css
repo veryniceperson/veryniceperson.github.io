@@ -180,4 +180,6 @@ video {
 .Getting_Started img {
   float: right;
   margin-left: 5%;
+  width: 30%;
+  height: auto;
 }
