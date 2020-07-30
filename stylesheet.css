@@ -190,4 +190,8 @@ code {
   font-weight: normal;
 }
 
-.Headings 
+.Headings img {
+  float: right;
+  margin-left: 5%;
+  right: 0;
+}
