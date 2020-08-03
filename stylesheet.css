@@ -196,3 +196,9 @@ code {
   right: 0;
   background-color: white;
 }
+
+.Paragraphs img {
+  float: right;
+  margin-left: 5%;
+  right: 0;
+}
