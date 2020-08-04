@@ -202,3 +202,16 @@ code {
   margin-left: 5%;
   right: 0;
 }
+
+.paragraphs a {
+  font-size: 24px;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
