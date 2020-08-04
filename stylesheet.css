@@ -207,11 +207,12 @@ code {
   font-size: 24px;
   color: white;
   font-family: 'Roboto Mono', monospace;
-  text-align: center;
+  text-align: left;
   background-color: Transparent;
   background-repeat:no-repeat;
   border: none;
   cursor:pointer;
   overflow: hidden;
   outline:none;
+  text-decoration: none;
 }
