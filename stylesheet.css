@@ -188,6 +188,8 @@ code {
   text-align: left;
   font-size: 24px;
   font-weight: normal;
+  border-radius: 5px;
+  background-color: grey;
 }
 
 .Headings img {
