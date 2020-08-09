@@ -1,4 +1,4 @@
-html {
+body {
   background-color: black;
   width: 80%;
   padding-left: 10%;
@@ -88,7 +88,7 @@ video {
 
 .navbar {
   background-color: Transparent;
-  width: 100%;
+  width: 80%;
   height: 5%;
   padding-right: 10%;
   font-family: 'Roboto Mono', monospace;
@@ -215,4 +215,18 @@ code {
   overflow: hidden;
   outline:none;
   text-decoration: none;
+}
+
+.homepage_shortcut:hover {
+  opacity: 0.6;
+  transition-delay: 0.3s;
+}
+
+.homepage_shortcut img{
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 11;
+  float: left;
+  border-radius: 10px;
 }
