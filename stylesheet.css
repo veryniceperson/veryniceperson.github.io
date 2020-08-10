@@ -84,6 +84,7 @@ video {
   color: grey;
   font-weight: bolder;
   font-size: 39px;
+  transition-delay: 0.2s;
 }
 
 .navbar {
@@ -219,7 +220,7 @@ code {
 
 .homepage_shortcut:hover {
   opacity: 0.6;
-  transition-delay: 0.3s;
+  transition-delay: 0.2s;
 }
 
 .homepage_shortcut img{
