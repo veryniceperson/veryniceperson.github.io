@@ -235,3 +235,7 @@ code {
   float: left;
   border-radius: 10px;
 }
+
+.Imagesinfo a {
+  all: inherit;
+}
