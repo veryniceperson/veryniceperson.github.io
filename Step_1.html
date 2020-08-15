@@ -12,7 +12,6 @@
   </head>
 
     <body>
-
       <div class="navbar">
       <div class="dropdown">
         <button class="dropbtn"> Courses
@@ -283,8 +282,66 @@
       <a name="buttons_info"></a>
       <div class="buttons_info">
         <h1 style="margin-bottom: 3%;">Buttons</h1>
-        <img src="" width="" height="">
-        <p>
+        <p>Buttons in website are use full to perform actions, such as copying a piece of text or submitting a form. In this section I will provide you information about a number of 
+          attributes to include for your button element and I will provide you a few functions you could include yourself. 
+          <br></br> 
+          Below, you would find the attributes that can be used for the button element. The button element doesn't require a necessary attribute, although it is recommended to use this:<code>type="button"</code> attribute if 
+          it is meant ot be an ordinary button.
+          <br>
+
+          <table rules="all">
+            <tr>
+              <th>Attribute</th>
+              <th>Value(s)</th>
+              <th>Description</th>
+              <th>Example</th>
+            </tr>
+
+            <tr>
+              <td>autofocus</td>
+              <td>autofocus</td>
+              <td>Specifies that the button should automatically receive focus after loading the webpage.</td> 
+              <td>
+                <code>&lt;button type=&quot;button&quot; autofocus&gt; &lt;/button&gt;</code>
+              </td>
+            </tr>
+
+            <tr>
+              <td>disabled</td>
+              <td>disabled</td>
+              <td>This specifies that a button is disabled and won't work.</td>
+              <td>
+                <code>&lt;button type=&quot;button&quot; disabled&gt; &lt;/button&gt;</code>
+              </td>
+            </tr>
+
+            <tr>
+              <td>formaction</td>
+              <td>A link</td>
+              <td>This attribute specifies to where the form data inputed by a user should go. This only work when the type is set to &quot;submit&quot;</td>
+              <td><code>&lt;button type=&quot;submit&quot; formaction&gt; &lt;/button&gt;</code></td>
+            </tr>
+
+            <tr>
+              <td>formenctype</td>
+              <td>application/x-www-form-urlencoded <br> multipart/form-data <br> text/plain</td>
+              <td>This attribute specifies how data should be encoded before sending it to a server. This only works for type="submit" buttons. </td>
+              <td>
+                <code>&lt;button type="submit" formenctype="application/x-www-form-urlencoded"&gt; &lt;/button&gt;</code>
+                <br><br>
+                <code>&lt;button type="submit" formenctype="multipart/form-data"&gt; &lt;/button&gt;</code>
+                <br><br>
+                <code>&lt;button type="submit" formenctype="text/plain"&gt; &lt;/button&gt;</code>
+              </td>
+            </tr>
+
+            <tr>
+              <td>formmethod</td>
+              <td>get<br>post</td>
+              <td>This attribute specifies how form date inputted by the user should be sent to the server. This only works for type="submit" buttons.</td>
+              <td></td>
+            </tr>
+          </table>
 
         </p>
       </div>

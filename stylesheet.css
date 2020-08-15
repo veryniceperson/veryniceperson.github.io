@@ -239,3 +239,38 @@ code {
 .Imagesinfo a {
   all: inherit;
 }
+
+th {
+  font-weight: bolder;
+  font-size: 32px;
+  width: 20%;
+}
+
+td {
+  width: 20%;;
+}
+
+table {
+  font-size: 24px;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  overflow: hidden;
+  width: 80%;
+  position: absolute;
+  border: black;
+  background: rgb(38,38,38);
+background: linear-gradient(0deg, rgba(38,38,38,1) 6%, rgba(22,22,22,1) 36%, rgba(5,5,5,1) 62%, rgba(0,0,0,1) 72%);
+}
+
+table th {
+  padding: 2%;
+  border: black solid thick;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 2%;
+  border: transparent;
+  border-collapse: collapse;
+}
