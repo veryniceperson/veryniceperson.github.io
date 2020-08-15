@@ -283,10 +283,11 @@
       <div class="buttons_info">
         <h1 style="margin-bottom: 3%;">Buttons</h1>
         <p>Buttons in website are use full to perform actions, such as copying a piece of text or submitting a form. In this section I will provide you information about a number of 
-          attributes to include for your button element and I will provide you a few functions you could include yourself. 
+          attributes to include for your button element and examples of them. 
           <br></br> 
           Below, you would find the attributes that can be used for the button element. The button element doesn't require a necessary attribute, although it is recommended to use this:<code>type="button"</code> attribute if 
           it is meant ot be an ordinary button.
+        </p>
           <br>
 
           <table rules="all">
@@ -339,11 +340,70 @@
               <td>formmethod</td>
               <td>get<br>post</td>
               <td>This attribute specifies how form date inputted by the user should be sent to the server. This only works for type="submit" buttons.</td>
-              <td></td>
+              <td>
+                <code>&lt;button type="submit" formmethod="get"&gt; &lt;/button&gt;</code>
+                <br><br>
+                <code>&lt;button type="submit" formmethod="post"&gt; &lt;/button&gt;</code>
+              </td>
+            </tr>
+
+            <tr>
+              <td>formnovalidate</td>
+              <td>formnovalidate</td>
+              <td>This attribute specifies that form data inputted by a user shouldn't validate when it is submitted to the sever. This only works for type="submit" buttons. </td>
+              <td>
+                <code>&lt;button type="submit" formnovalidate&gt; &lt;/button&gt;</code>
+              </td>
+            </tr>
+
+            <tr>
+              <td>formtarget</td>
+              <td>_blank <br> _self <br> _parent <br> _top <br> framename</td>
+              <td>This attribute specifies where to display the response for a user after they had submitted a form. This only works for type="submit" buttons.</td>
+              <td>
+                <code>&lt;button type="submit" formtarget="_blank"&gt; &lt;/button&gt;</code>
+                <br><br>
+                <code>&lt;button type="submit" formtarget="_self"&gt; &lt;/button&gt;</code>
+                <br><br>
+                <code>&lt;button type="submit" formtarget="_parent"&gt; &lt;/button&gt;</code>
+                <br><br>
+                <code>&lt;button type="submit" formtarget="_top"&gt; &lt;/button&gt;</code>
+                <br><br>
+                <code>&lt;button type="submit" framename&gt; &lt;/button&gt;</code>
+              </td>
+            </tr>
+
+            <tr>
+              <td>name</td>
+              <td>name for a button</td>
+              <td>This attribute is used to specify a name for a button</td>
+              <td>
+                <code>&lt;button type="button" name="<i>Insert button name here</i>"&gt; &lt;/button&gt;</code>
+              </td>
+            </tr>
+
+            <tr>
+              <td>type</td>
+              <td>button <br>reset <br>submit </td>
+              <td>This attribute is used to specify the type of a button. <i>The reset button is used to reset a form, so the user can insert new data into the form</i></td>
+              <td>
+                <code>&lt;button type="button"&gt; &lt;/button&gt;</code>
+                <br><br>
+                <code>&lt;button type="reset"&gt; &lt;/button&gt;</code>
+                <br>
+                <code>&lt;button type="submit"&gt; &lt;/button&gt;</code>
+              </td>
+            </tr>
+
+            <tr>
+              <td>value</td>
+              <td>button value, which is in text form</td>
+              <td>This attribute is used to specify a value for a button</td>
+              <td>
+                <code>&lt;button type="button" value="<i>Insert button value here</i>"&gt; &lt;/button&gt;</code>
+              </td>
             </tr>
           </table>
-
-        </p>
       </div>
 
 
