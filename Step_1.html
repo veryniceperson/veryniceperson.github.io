@@ -461,59 +461,64 @@
             </tr>
 
             <tr>
-              <td>formaction</td>
-              <td>A link</td>
-              <td>This attribute specifies to where the form data inputed by a user should go. This only work when the type is set to &quot;submit&quot;</td>
-              <td><code>&lt;button type=&quot;submit&quot; formaction&gt; &lt;/button&gt;</code></td>
-            </tr>
-
-            <tr>
-              <td>formenctype</td>
-              <td>application/x-www-form-urlencoded <br> multipart/form-data <br> text/plain</td>
-              <td>This attribute specifies how data should be encoded before sending it to a server. This only works for type="submit" buttons. </td>
+              <td>hreflang</td>
+              <td>code for the language of the website </td>
+              <td>This attribute would allow you to specify the language of the website.</td>
               <td>
-                <code>&lt;button type="submit" formenctype="application/x-www-form-urlencoded"&gt; &lt;/button&gt;</code>
-                <br><br>
-                <code>&lt;button type="submit" formenctype="multipart/form-data"&gt; &lt;/button&gt;</code>
-                <br><br>
-                <code>&lt;button type="submit" formenctype="text/plain"&gt; &lt;/button&gt;</code>
+                <code>&lt;a hreflang="<i>Insert code here</i>"&gt; &lt;/a&gt;</code>
               </td>
             </tr>
 
             <tr>
-              <td>formmethod</td>
-              <td>get<br>post</td>
-              <td>This attribute specifies how form date inputted by the user should be sent to the server. This only works for type="submit" buttons.</td>
+              <td>media</td>
+              <td>media-query</td>
+              <td>This attribute allows you to specify what devices your website is optimised for, such as mobile phones, computer screens, etc.</td>
               <td>
-                <code>&lt;button type="submit" formmethod="get"&gt; &lt;/button&gt;</code>
-                <br><br>
-                <code>&lt;button type="submit" formmethod="post"&gt; &lt;/button&gt;</code>
+                <code>&lt;a media="<i>Insert media query here</i>"&gt; &lt;/a&gt;</code>
               </td>
             </tr>
 
             <tr>
-              <td>formnovalidate</td>
-              <td>formnovalidate</td>
-              <td>This attribute specifies that form data inputted by a user shouldn't validate when it is submitted to the sever. This only works for type="submit" buttons. </td>
+              <td>ping</td>
+              <td>One or more urls.</td>
+              <td>This attribute specifies the URLs that should be notified if the user visit the link. This enables user tracking. The ping URLs should be seperated by a space. </td>
               <td>
-                <code>&lt;button type="submit" formnovalidate&gt; &lt;/button&gt;</code>
+                <code>&lt;a media="<i>Insert media query here</i>"&gt; &lt;/a&gt;</code>
               </td>
             </tr>
 
             <tr>
-              <td>formtarget</td>
-              <td>_blank <br> _self <br> _parent <br> _top <br> framename</td>
-              <td>This attribute specifies where to display the response for a user after they had submitted a form. This only works for type="submit" buttons.</td>
+              <td>referrerpolicy</td>
+              <td>no-referrer<br>no-referrer-when-downgrade<br>origin<br>origin-when-cross-origin<br>unsafe-url</td>
+              <td>This attribute is used to specify how much referrer data is included with link requests and which referrer data the website should send to a database. Referrer data contains the web adress of the previous web page that the user had visited. 
+                This data is used for things such as analytics, optimised caching and ad targeting. 
+              </td>
               <td>
-                <code>&lt;button type="submit" formtarget="_blank"&gt; &lt;/button&gt;</code>
-                <br><br>
-                <code>&lt;button type="submit" formtarget="_self"&gt; &lt;/button&gt;</code>
-                <br><br>
-                <code>&lt;button type="submit" formtarget="_parent"&gt; &lt;/button&gt;</code>
-                <br><br>
-                <code>&lt;button type="submit" formtarget="_top"&gt; &lt;/button&gt;</code>
-                <br><br>
-                <code>&lt;button type="submit" framename&gt; &lt;/button&gt;</code>
+                <code>&lt;a referrerpolicy="no-referrer"&gt; &lt;/a&gt;</code>
+                <code>&lt;a referrerpolicy="no-referrer-when-downgrade"&gt; &lt;/a&gt;</code>
+                <code>&lt;a referrerpolicy="origin"&gt; &lt;/a&gt;</code>
+                <code>&lt;a referrerpolicy="origin-when-cross-origin"&gt; &lt;/a&gt;</code>
+                <code>&lt;a referrerpolicy="unsafe-url"&gt; &lt;/a&gt;</code>
+              </td>
+            </tr>
+
+            <tr>
+              <td>rel</td>
+              <td>alternate<br>author<br>bookmark<br>external<br>help<br>license<br>next<br>nofollow<br>noreferrer<br>noopener<br>prev<br>tag<br>search</td>
+              <td>This attribute specifies the relationship between the webpage that the user is in and the webpage that is linked in the a element.</td>
+              <td>
+                <code>&lt;a rel="alternate"&gt; &lt;/a&gt;</code>
+                <code>&lt;a rel="author"&gt; &lt;/a&gt;</code>
+                <code>&lt;a rel="bookmark"&gt; &lt;/a&gt;</code>
+                <code>&lt;a rel="external"&gt; &lt;/a&gt;</code>
+                <code>&lt;a rel="help"&gt; &lt;/a&gt;</code>
+                <code>&lt;a rel="license"&gt; &lt;/a&gt;</code>
+                <code>&lt;a rel="next"&gt; &lt;/a&gt;</code>
+                <code>&lt;a rel="nofollow"&gt; &lt;/a&gt;</code>
+                <code>&lt;a rel="noreferrer"&gt; &lt;/a&gt;</code>
+                <code>&lt;a rel="prev"&gt; &lt;/a&gt;</code>
+                <code>&lt;a rel="tag"&gt; &lt;/a&gt;</code>
+                <code>&lt;a rel="search"&gt; &lt;/a&gt;</code>
               </td>
             </tr>
 
