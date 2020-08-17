@@ -255,7 +255,7 @@ table {
   width: 80%;
   position: absolute;
   background: rgb(38,38,38);
-  padding: 2%;
+  padding: 3%;
   border: rgb(85, 84, 84) solid;
   border-collapse: collapse;
   background: linear-gradient(0deg, rgba(38,38,38,1) 6%, rgba(22,22,22,1) 36%, rgba(5,5,5,1) 62%, rgba(0,0,0,1) 72%);
