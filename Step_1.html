@@ -23,7 +23,7 @@
           <a href="#">Tips and tricks!</a>
         </div>
       </div>
-      <a href="Sources.html">Sources</a>
+      <a href="Sources.html target="_blank"">Sources</a>
       <div class="dropdown">
         <button class="dropbtn"> Help!
           <i class="fa fa-caret-down"></i>
@@ -290,7 +290,6 @@
           it is meant ot be an ordinary button.
         </p>
           <br>
-
         <tbody>
           <table rules="all" border="1">
             <tr>
@@ -410,7 +409,7 @@
 
           </table>
         </tbody>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
         <p> These are the attributes that can be used for your button element. The button element is mainly used to send things like forms to servers and some people can be confused 
           on how to use it, becuase they will think that the button element can be used for making link buttons. The button element is actually not very good to use for links and 
           in the next section we will learn how to use the anchor, which you can use to make buttons that will act as links for the user.
@@ -431,7 +430,7 @@
           Below you will find a table that specifies attributes that can be used with the a element. We will go into detail about the more important ones after the table.
         </p>
         <br><br>
-        <tbody>
+        <tbody style="word-wrap: break-word;">
           <table rules="all" border="1">
             <tr>
               <thead>
@@ -551,11 +550,43 @@
                 <code>&lt;a type="<i>Insert type of media here</i>"&gt; &lt;/a&gt;</code>
               </td>
             </tr>
-
           </table>
         </tbody>
+        <p>These are the attributes that can be used for your a element. Now let's get some practise by including one of your own, in our practise website.
+          <br><br>
+          Under the "What's an iPad?" heading, find the first paragraph and find the part where it says "The iPad is a tablet computer developed by Apple". Now remove the "Apple" part and add an a element opening tag.
+          Next, in the opening tag include the href attribute. Inside the href attribute, include this <a href="https://www.apple.com">link</a>. Next, close off the tag and after the opening tag type in Apple. Finally, add
+          an a element closing tag and you're done!. Your code should look like this:
+          <br>
+          <img src="Images/a element 1st example.png" alt="<a> element 1st example">
+          <br>
+          If you take a look at your website, the word "Apple" should be underline and highlighted in blue. If you click on the link it should open up the link in the same tab as the practise website. 
+          That could cause an inconvenience, because the user would lose their progress in the website and could lose track of where they were. In order to solve that, we would have to make the link open 
+          in a new tab. To do this, add the attribute target inside the a opening tag and set the value to <code>"_blank"</code>. Your code should look like this:
+          <br>
+          <img src="Images/a element 2nd example.png">
+          <br>
+          If you click on the link now, the link would open up in a new tab, meaning that the user's progress in the website wouldn't be lost.
+          <br><br>
+          Nicely done! You have completed the anchor section of your web programming course! Next we will be learning how to use divisions (<code>&lt;div&gt;</code>) in your website. 
+          </p>
       </div>
 
+      <a name="div_section"></a>
+      <div class="div_section">
+        <h3 style="margin-bottom: 3%;"></h3>
+        <p>The div element can be used to divide parts of your website from each other, so it is easier to organise them and give them different properties. 
+          You can put any type of elements within the div tag, because it is only a container for the elements. In addition, browser will always but a single line break after 
+          a closing div tag, so the contents of your website aren't mashed up together. Let's try and use this element in our practice website. 
+          <br><br>
+          Above the what's an iPad header, type in a div opening tag. Then below the second paragraph under the heading, include a closing div tag. 
+          Next, in the div opening tag, include a class attribute and a display attribute. Set the value of the class attribute to a name, something like "whats_an_ipad_info" 
+          and set the value of the display attribute to block. This value would allow the content of the container to take 100% of the width by default and doesn't allow anything to go 
+          to the left of the right of the content. We will take advantage of the class attribute when we learn how to use css code. Your code should look like this:
+          <br><br>
+          <img src="" alt="example of div element code">  
+
+        </p>
       </div>
     </body>
 </html>

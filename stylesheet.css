@@ -39,7 +39,7 @@ font-weight: bold;
 
 p {
   color: white;
-  text-align: left;
+  text-align: justify;
   font-family: 'Roboto Mono', monospace;
   font-size: 24px;
   font-weight: normal;
@@ -252,12 +252,22 @@ table {
   color: white;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
-  width: 80%;
-  position: absolute;
+  width: 100%;
   background: rgb(38,38,38);
   padding: 3%;
   border: rgb(85, 84, 84) solid;
   border-collapse: collapse;
   background: linear-gradient(0deg, rgba(38,38,38,1) 6%, rgba(22,22,22,1) 36%, rgba(5,5,5,1) 62%, rgba(0,0,0,1) 72%);
   z-index: 1;
+  margin-bottom: 5%;
+}
+
+input {
+  width: 80%;
+}
+
+.anchor img {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
 }
