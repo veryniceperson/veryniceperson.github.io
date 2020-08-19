@@ -271,3 +271,9 @@ input {
   overflow: hidden;
   height: auto;
 }
+
+.div_section img {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+}
