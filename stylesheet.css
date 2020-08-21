@@ -145,6 +145,7 @@ video {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .light-mode .dropdown-content {
     background-color: #d5b68e;
     color: black; 
@@ -218,6 +219,8 @@ video {
 
 .light-mode .dropdown-content a {
 =======
+=======
+>>>>>>> parent of ce113dd... close to finishing light mode
 .dropdown-content a {
 >>>>>>> parent of ce113dd... close to finishing light mode
   float: none;
@@ -231,8 +234,12 @@ video {
 
 .dropdown-content a:hover {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #e29f4b;
   border-radius: 20px;
+=======
+  background-color: grey;
+>>>>>>> parent of ce113dd... close to finishing light mode
 =======
   background-color: grey;
 >>>>>>> parent of ce113dd... close to finishing light mode
