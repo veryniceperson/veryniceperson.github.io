@@ -130,7 +130,7 @@ video {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #e29f4b;
+  background-color: red;
   border-radius: 20px;
 }
 
@@ -170,11 +170,11 @@ video {
 }
 
 .Light-mode:hover{
-  background-color: #e29f4b;
+  background-color: red;
 }
 
 .light-mode .Light-mode:hover{
-  background-color: #e29f4b;
+  background-color: #ffdaaa;
 }
 
 .light-mode .dropdown:hover .dropdown-content {
@@ -219,6 +219,7 @@ video {
   background-color: #d5b68e;
 }
 
+<<<<<<< HEAD
 .light-mode .dropdown-content a {
 =======
 =======
@@ -229,13 +230,15 @@ video {
 >>>>>>> parent of ce113dd... close to finishing light mode
 .dropdown-content a {
 >>>>>>> parent of ce113dd... close to finishing light mode
+=======
+.dropdown-content a {
+>>>>>>> parent of 7a8c391... bruh
   float: none;
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
-  background-color: #ffdaaa;
 }
 
 .dropdown-content a:hover {
@@ -243,7 +246,11 @@ video {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #e29f4b;
+=======
+  background-color: grey;
+>>>>>>> parent of 7a8c391... bruh
   border-radius: 20px;
 =======
   background-color: grey;
