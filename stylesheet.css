@@ -144,10 +144,6 @@ video {
   border-radius: 20px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 .light-mode .dropdown-content {
     background-color: #d5b68e;
     color: black; 
@@ -219,20 +215,8 @@ video {
   background-color: #d5b68e;
 }
 
-<<<<<<< HEAD
 .light-mode .dropdown-content a {
-=======
-=======
->>>>>>> parent of ce113dd... close to finishing light mode
-=======
->>>>>>> parent of ce113dd... close to finishing light mode
-=======
->>>>>>> parent of ce113dd... close to finishing light mode
-.dropdown-content a {
->>>>>>> parent of ce113dd... close to finishing light mode
-=======
-.dropdown-content a {
->>>>>>> parent of 7a8c391... bruh
+
   float: none;
   color: white;
   padding: 12px 16px;
@@ -242,28 +226,10 @@ video {
 }
 
 .dropdown-content a:hover {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   background-color: #e29f4b;
-=======
   background-color: grey;
->>>>>>> parent of 7a8c391... bruh
   border-radius: 20px;
-=======
-  background-color: grey;
->>>>>>> parent of ce113dd... close to finishing light mode
-=======
-  background-color: grey;
->>>>>>> parent of ce113dd... close to finishing light mode
-=======
-  background-color: grey;
->>>>>>> parent of ce113dd... close to finishing light mode
-=======
-  background-color: grey;
->>>>>>> parent of ce113dd... close to finishing light mode
+
 }
 
 .dropdown:hover .dropdown-content {
