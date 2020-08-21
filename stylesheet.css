@@ -136,7 +136,7 @@ img {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #e29f4b;
   border-radius: 20px;
 }
 
@@ -172,11 +172,11 @@ img {
 }
 
 .Light-mode:hover{
-  background-color: red;
+  background-color: #e29f4b;
 }
 
 .light-mode .Light-mode:hover{
-  background-color: #ffdaaa;
+  background-color: #e29f4b;
 }
 
 .light-mode .dropdown:hover .dropdown-content {
@@ -221,17 +221,18 @@ img {
   background-color: #d5b68e;
 }
 
-.dropdown-content a {
+.light-mode .dropdown-content a {
   float: none;
-  color: white;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
+  background-color: #ffdaaa;
 }
 
 .dropdown-content a:hover {
-  background-color: grey;
+  background-color: #e29f4b;
   border-radius: 20px;
 }
 
