@@ -229,7 +229,6 @@ video {
   background-color: #e29f4b;
   background-color: grey;
   border-radius: 20px;
-
 }
 
 .dropdown:hover .dropdown-content {
@@ -352,3 +351,4 @@ input {
   overflow: hidden;
   height: auto;
 }
+
