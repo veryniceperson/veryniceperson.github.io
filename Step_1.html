@@ -23,7 +23,7 @@
           <a href="#">Tips and tricks!</a>
         </div>
       </div>
-      <a href="Sources.html target="_blank"">Sources</a>
+      <a class="source_button" href="Sources.html target="_blank"">Sources</a>
       <div class="dropdown">
         <button class="dropbtn"> Help!
           <i class="fa fa-caret-down"></i>
@@ -46,8 +46,18 @@
             <a href="#images">Images</a>
             <a href="#buttons_info">Buttons</a>
             <a href="#anchor">The anchor element</a>
+            <a href="#text-deco">Text formatting</a>
+            <a href="#videos">Videos</a>
           </div>
         </div>
+          <button class="Light-mode" onclick="myFunction()">Toggle dark/light mode</button>
+
+          <script>
+            function myFunction() {
+            var element = document.body;
+            element.classList.toggle("light-mode");
+          }
+          </script>
       </div>
       </div>
 
@@ -597,13 +607,67 @@
             You can use text formatting to add special meaning to your text, such as bold, italic and underlined. 
             <br><br>
             In order to write a text in bold, you would have to surround your target text with <code>&lt;b&gt; and &lt;/b&gt;</code> tags. 
+            In order to write text in <b>bold</b>, you would have to surround your target text with <code>&lt;b&gt;</code> and <code>&lt;/b&gt;</code> tags. 
             <br>
             Let's try that out in our practise webiste. Under the heading "What's an iPad" there are 2 paragraphs. At the beginning of the second paragraph, put 
             an opening b tag and at the end put a closing b tag. This will make the second paragraph bold. Your code should look something like this:
             <br>
-            <img src=""
-          </p>
+            <img src="Images/text formatting example 1.png" width="100%" height="auto">
+            <br>
+            And your website should look like this:
+            <br>
+            <img src="Images/text formatting website example 1.png" width="100%" height="auto">
+            <br><br>
 
+            In order to write text in <i>italic</i>, you would have to surrond your target text with <code>&lt;i&gt;</code> and <code>&lt;/i&gt;</code> tags. 
+            If you would like to see how it looks, just replace the "b" in the bold tags with "i".
+            <br><br>
+
+            In order to write <em>emphasised</em> text you would have to surround your target text with <code>&lt;em&gt;</code> and <code>&lt;/em&gt;</code> tags. 
+            Emphasised text usually appears italic in most browsers. 
+            <br>
+            If you would like to see how it looks, just replace the "i" in the italic tags with "em".
+            <br><br>
+
+            In order to outline that text is <strong>imporant</strong>, you would have to surround your target text with <code>&lt;strong&gt;</code> and <code>&lt;/strong&gt;</code>
+            tags. Text with the strong attribute usually appears bold in most browsers. 
+            <br>
+            If you would like to see how it looks, just replace the "em" in the italic tags with "strong".
+            <br><br>
+
+            In order to write <small>small</small> text you would have to surround your target text with <code>&lt;small&gt;</code> and <code>&lt;/small&gt;</code> tags. 
+            Small text will be smaller than the text that it is nested in, no matter the size of the test that it is nested in. 
+            <br>
+            If you would like to see how it looks, just replace the "strong" in the italic tags with "small".
+            <br><br>
+
+            In order to write <mark>highlighted</mark> text you would have to surround your target text with <code>&lt;mark&gt;</code> and <code>&lt;/mark&gt;</code> tags. 
+            Marked text will appear highlighted or marked in some way.
+            <br>
+            If you would like to see how it looks, just replace the "small" in the italic tags with "mark".
+            <br><br>
+
+            In order to write <sub>subscript</sub> text you would have to surround your target text with <code>&lt;sub&gt;</code> and <code>&lt;/sub&gt;</code> tags. 
+            Subscript text is useful for writing chemical equations, like CO<sub>2</sub>.
+            <br>
+            If you would like to see how it looks, just replace the "mark" in the italic tags with "sub".
+            <br><br>
+
+            In order to write <sup>superscript</sup> text you would have to surround your target text with <code>&lt;sup&gt;</code> and <code>&lt;/sup&gt;</code> tags. 
+            Superscript text is useful for writing mathematical equations, like <i>x</i><sup>2</sup>
+            <br>
+            If you would like to see how it looks, just replace the "sub" in the italic tags with "sup".
+            <br><br>
+
+            Great progress! These are common text formatting options you can use in order to elevate your website to a higher quality level. Next we will be learning how to include videos 
+            in websites using HTML.
+          </p>
+        </div>
+      </a>
+
+      <a name="videos">
+        <div class="videos">
+          <h3 style="margin-bottom: 3%;">Videos</h3>
         </div>
       </a>
     </body>
