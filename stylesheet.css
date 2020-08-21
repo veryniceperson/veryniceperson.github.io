@@ -67,6 +67,10 @@ video {
   z-index: -1;
 }
 
+img {
+  border-radius: 5px;
+}
+
 .homepage_buttons {
   width: 45%;
   height: 10%;
@@ -92,7 +96,7 @@ video {
 .navbar {
   background-color: Transparent;
   width: 80%;
-  height: 5%;
+  height: 5.6%;
   padding-right: 10%;
   font-family: 'Roboto Mono', monospace;
   background-color: black;
@@ -101,6 +105,7 @@ video {
   top: 0;
   left: 10%;
   z-index: 11;
+  border-radius: 20px;
 }
 
 .navbar a {
@@ -127,6 +132,7 @@ video {
   font-family: inherit;
   margin: 0;
   text-align: center;
+  border-radius: 20px;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -144,6 +150,77 @@ video {
   border-radius: 20px;
 }
 
+.light-mode .dropdown-content {
+    background-color: #d5b68e;
+    color: black; 
+    display: none;
+    position: absolute;
+    background-color: Transparent;
+    min-width: 160px;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.light-mode .dropdown-content a:hover {
+  background-color: #ffdaaa;
+  border-radius: 20px;
+}
+
+.light-mode .navbar  a:hover, .dropdown:hover .dropbtn {
+  background-color: #e29f4b;
+  border-radius: 20px;
+}
+
+.Light-mode:hover{
+  background-color: red;
+}
+
+.light-mode .Light-mode:hover{
+  background-color: #ffdaaa;
+}
+
+.light-mode .dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #ffdaaa;
+  color: black;
+  border-radius: 20px;
+}
+
+.Light-mode {
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: black;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.Light-mode a {
+  padding: 0.1px;
+}
+
+.light-mode .navbar a {
+  background-color: #d5b68e;
+  color: black;
+}
+
+.light-mode .navbar button {
+  background-color: #d5b68e;
+  color: black;
+}
+
+.light-mode .navbar {
+  background-color: #d5b68e;
+  color: black;
+}
+
+.light-mode .Light-mode {
+  background-color: #d5b68e;
+}
+
 .dropdown-content a {
   float: none;
   color: white;
@@ -155,12 +232,14 @@ video {
 
 .dropdown-content a:hover {
   background-color: grey;
+  border-radius: 20px;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
   background-color: black;
   color: white;
+  border-radius: 20px;
 }
 
 .HTMLcode_parts img {
@@ -262,6 +341,7 @@ table {
   margin-bottom: 5%;
 }
 
+
 input {
   width: 80%;
 }
@@ -276,4 +356,64 @@ input {
   width: 100%;
   overflow: hidden;
   height: auto;
+}
+
+.light-mode {
+  background-color: #b69b79;
+
+}
+
+.light-mode code {
+  background-color:#7c6952;
+}
+
+.light-mode p {
+  color: black;
+}
+
+.light-mode h1 {
+  color: black;
+}
+
+.light-mode h2 {
+  color: black;
+}
+
+.light-mode h3 {
+  color: black;
+}
+
+.light-mode h4 {
+  color: black;
+}
+
+.light-mode h5 {
+  color: black;
+}
+
+.light-mode h6 {
+  color: black;
+}
+
+.light-mode tbody {
+  color: black;
+}
+.light-mode thead {
+  color: black;
+}
+
+.light-mode table {
+  font-size: 24px;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  width: 100%;
+  background: black;
+  padding: 3%;
+  border-collapse: collapse;
+  background: rgb(182,155,121);
+  border: black solid;
+  background: linear-gradient(180deg, rgba(182,155,121,1) 6%, rgba(213,182,142,1) 36%, rgba(238,205,161,1) 62%, rgba(255,218,170,1) 72%);
+  z-index: 1;
+  margin-bottom: 5%;
 }
