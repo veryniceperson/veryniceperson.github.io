@@ -280,6 +280,7 @@ code {
   font-weight: normal;
   border-radius: 5px;
   background-color: grey;
+  text-decoration: none;
 }
 
 .Headings img {
@@ -496,15 +497,11 @@ input {
 
 .light-mode #percent 
 {
-  position: fixed;
-  font-family: 'Roboto Mono', monospace;
-  top: 50%;
-  right: 0px;
-  font-size: 16px;
-  transform: translateY(-50%);
   color: black;
 }
 
 a {
   text-decoration: underline;
 }
+
+background: linear-gradient(to top, #008aff,#00ffe7);
