@@ -13,7 +13,9 @@
   </head>
 
   <body>
-
+    <div id="progressbar"></div>
+      <div id="scrollpath"></div>
+      <div id="percent"></div>
     <div class="navbar">
     <div class="dropdown">
       <button class="dropbtn"> Courses
@@ -50,7 +52,17 @@
       <a href= "" class="homepage_buttons" style="float: left;"> Tips and tricks! </a>
     </div>
 
+    <script type="text/javascript">    
+      var percent = document.getElementById("progressbar");
+      var percent = document.getElementById("percent");
 
+      var totalHeight = document.body.scrollHeight - window.innerHeight;
+      window.onscroll = function(){
+        var progress = (window.pageYOffset / totalHeight) * 100;
+        progressbar.style.height = progress + "%";
+        percent.innerHTML =  Math.round(progress) + "%"
+      }
+  </script>
   </body>
 
 </html>

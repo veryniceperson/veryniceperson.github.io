@@ -12,6 +12,9 @@
   </head>
 
   <body>
+    <div id="progressbar"></div>
+      <div id="scrollpath"></div>
+      <div id="percent"></div>
 
     <div class="navbar">
     <div class="dropdown">
@@ -43,3 +46,17 @@
       <li> Stack Overflow. 2020. Stack Overflow - Where Developers Learn, Share, & Build Careers. [online] Available at: <https://stackoverflow.com> [Accessed 25 July 2020]. </li>
       <li> W3docs.com. 2020. W3docs. [online] Available at: <https://www.w3docs.com> [Accessed 14 August 2020]. </li>
     </ul>
+
+    <script type="text/javascript">    
+      var percent = document.getElementById("progressbar");
+      var percent = document.getElementById("percent");
+
+      var totalHeight = document.body.scrollHeight - window.innerHeight;
+      window.onscroll = function(){
+        var progress = (window.pageYOffset / totalHeight) * 100;
+        progressbar.style.height = progress + "%";
+        percent.innerHTML =  Math.round(progress) + "%"
+      }
+  </script>
+  </body>
+</html>
