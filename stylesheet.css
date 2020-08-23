@@ -44,6 +44,7 @@ p {
   font-size: 24px;
   font-weight: normal;
   z-index: 10;
+  text-decoration: none;
 }
 
 li {
@@ -99,7 +100,6 @@ img {
   height: 5.6%;
   padding-right: 10%;
   font-family: 'Roboto Mono', monospace;
-  background-color: black;
   margin-bottom: 2.5%;
   position:fixed;
   top: 0;
@@ -116,6 +116,7 @@ img {
   padding: 14px 16px;
   text-decoration: none;
   border-radius: 20px;
+  background-color: black;
 }
 
 .dropdown {
@@ -130,7 +131,7 @@ img {
   outline: none;
   color: white;
   padding: 14px 16px;
-  background-color: inherit;
+  background-color: black;
   font-family: inherit;
   margin: 0;
   text-align: center;
@@ -214,7 +215,7 @@ img {
 }
 
 .light-mode .navbar {
-  background-color: #d5b68e;
+  background-color: transparent;
   color: black;
 }
 
@@ -256,7 +257,6 @@ img {
 
 .Getting_Started a {
   font-size: 24px;
-  color: white;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
   background-color: Transparent;
@@ -290,7 +290,21 @@ code {
   background-color: white;
 }
 
-.paragraphs a {
+p a {
+  font-size: 24px;
+  color: greenyellow;
+  font-family: 'Roboto Mono', monospace;
+  text-align: left;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  text-decoration: none;
+}
+
+.light-mode p a {
   font-size: 24px;
   color: white;
   font-family: 'Roboto Mono', monospace;
