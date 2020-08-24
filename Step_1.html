@@ -46,12 +46,13 @@
             <a href="#HTMLhierarchy">HTML Hierarchy</a>
             <a href="#Gettingstarted"">Getting Started</a>
             <a href="#headings">Headings</a>
-            <a href="#Paragraphs">Paragraphs</a>
+            <a href="#Paragraphs">Paragraphs & line breaks</a>
             <a href="#images">Images</a>
             <a href="#buttons_info">Buttons</a>
             <a href="#anchor">The anchor element</a>
             <a href="#text-deco">Text formatting</a>
             <a href="#videos">Videos</a>
+            <a href="#lists">Ordered and Unordered lists</a>
           </div>
         </div>
           <button class="Light-mode" onclick="myFunction()">Toggle dark/light mode</button>
@@ -799,12 +800,36 @@
             </tbody>
             <p>
             Let's get some practise by including one of our own videos. Let's assume that we would want to include a video on the right of our image. In order to do that we 
-            would need to have a <code>float="right"</code>. Start by opening a video tag below the img tag. Next we want to include a source. Let's do this by using a <code>src=""</code> 
+            would need to have a <code>float="right"</code> inside the opening tag. Start by opening a video tag below the img tag. Next we want to include a source. Let's do this by using a <code>src=""</code> 
             attribute. Use <a target="_blank" href="Images/iPad Commercial.mp4">this</a> link for the video. 
-            Include the link inside the source. Next we would want 
+            Include the link inside the source. 
+            <br>
+            Next we would want for the user to be able to play, pause and so on. In order to do that, you just have to include a <code>contols</code> attribute in the opening link.
+            <br>
+            Now let's adjust the width and height of the video. You can play around with the sizes, but if you would like to make the video have good placement, I suggest using <code>width="60%" height="auto"</code>. 
+            You should remmeber that these attributes have to be inside the video opening tag. The reason why i had chosen these sizes is because the image's width is set at 30%, leaving us with 70% to use. If you try and 
+            set the video width to 70%, the browser will move it onto another link, because it wouldn't want things to render incorrectly. So 60% is a better option as it would fill the remaining space well. The reason why 
+            I had chosen to set the height to "auto" is because this would make sure that the video doesn't appear irregularly, as if it was "streched out" or "narrowed down". In order to create a successful website, you have 
+            to think about the properties of your other elements aswell and work with them.
+            <br>
+            Lastly, we would want to make our video appear on the right. In order to do that, include a float attribute, with the value of right. Now close the opening tag and include a closing one.
+            Your code for the video should look something like this:
+            <br>
+            <img src="Images/Video code example 1.png" alt="video code example" width="100%" height="auto">
+            <br>
+            And your website should look like this:
+            <br>
+            <img src="Images/Video website example.png" width="100%" height="auto">
+            <br><br>
+            Very nice! You have now learnt the basics of the video element. Next we will be learing how to make ordered and unordered lists in your website.
           </p>
         </div>
 
+        <a name="lists">
+          <div class="lists">
+            <h3 style="margin-bottom: 3%;">Ordered and Unordered lists</h3>
+          </div>
+        </a>
     <script type="text/javascript">    
         var percent = document.getElementById("progressbar");
         var percent = document.getElementById("percent");
