@@ -332,10 +332,6 @@ p a {
   border-radius: 10px;
 }
 
-.Imagesinfo a {
-  all: inherit;
-  text-decoration: underline;
-}
 
 th {
   font-weight: bolder;
@@ -517,5 +513,3 @@ input {
 a {
   text-decoration: underline;
 }
-
-background: linear-gradient(to top, #008aff,#00ffe7);

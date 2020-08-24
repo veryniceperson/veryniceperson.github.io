@@ -262,7 +262,7 @@
          and before the closing angle bracket ">".
          <br></br>
          Let's get some practice by trying this by ourselves. First of all, include an img tag below the "The first iPad" h1 element in your practise website. Next include a source. You can include any image you
-         like, even a gif! If you can't choose, you can just use this:<code><a target="_blank" href ="https://d2um6umu4gwssp.cloudfront.net/apple/wp-content/uploads/2016/06/ipad-1st-generation-large.jpg">click here for the image link!</a></code>
+         like, even a gif! If you can't choose, you can just use this:<a target="_blank" href ="https://d2um6umu4gwssp.cloudfront.net/apple/wp-content/uploads/2016/06/ipad-1st-generation-large.jpg">click here for the image link!</a>
          Next, include the link using the src tag and remember to close off the element. 
          <br><br>
          Your website should look like this:
@@ -673,13 +673,135 @@
         <div class="videos">
           <h3 style="margin-bottom: 3%;">Videos</h3>
           <p>
-            We will learn how to add videos to your website in this<b> part of the course. The opening and the closing tags for videos are <code>&lt;video&gt;</code> <code>&lt;/video&gt;</code>.
-            You can add different attributes in the opening tag in order to change the behavior of the video in your website. A list about the attibutes can be found below:
+            We will learn how to add videos to your website in this part of the course. The opening and the closing tags for videos are <code>&lt;video&gt;</code> <code>&lt;/video&gt;</code>.
+            You can add different attributes in the opening tag in order to change the behavior of the video in your website. A list about the attibutes can be found below: </p>
             <br>
-            <ul>
-              <li><b>Controls</b> - The controls attribute lets the user do things such as play, pause and go to different parts of a video. </li>
-              <li
-            </ul>
+              <tbody>
+              <table rules="all" border="1">
+                <thead style="font-weight: bold;">
+                    <th>Attribute</th>
+                    <th>Values you can add</th>
+                    <th>What it does</th>
+                    <th>Example</th>
+                </thead>
+                  <tr>
+                    <td><b>Controls</b></td>
+                    <td>controls</td>
+                    <td>The controls attribute lets the user do things such as play, pause and go to different parts of a video.</td>
+                    <td><code>&lt;video controls&gt;&lt;/video&gt;</code></td>
+                  </tr>
+
+                  <tr>
+                    <td><b>Width</b></td>
+                    <td>px or %</td>
+                    <td>The width attribute is used to set the width of a video. You can set the width in either px (pixels) or % (percentage). It is recommended that you include 
+                      a specific width for the video, because the video may have an unjust appearance if you don't.
+                    </td>
+                    <td><code>&lt;video width="50%"&gt;&lt;/video&gt;</code></td>
+                  </tr>
+
+                  <tr>
+                    <td><b>Height</b></td>
+                    <td>px or %</td>
+                    <td>The height attribute is used to set the height of a video. You can set the height in either px (pixels) or % (percentage). It is recommended that you include 
+                      a specific height for the video, because the video may have an unjust appearance if you don't.
+                    </td>
+                    <td><code>&lt;video height="60%"&gt;&lt;/video&gt;</code></td>
+                  </tr>
+
+                  <tr>
+                    <td><b>Loop</b></td>
+                    <td>loop</td>
+                    <td>The loop attribute is used to specify that a video needs to be replayed repeatedly. This is useful for videos that are used for backgrounds.
+                    </td>
+                    <td><code>&lt;video loop&gt;&lt;/video&gt;</code></td>
+                  </tr>
+
+                  <tr>
+                    <td><b>Muted</b></td>
+                    <td>muted</td>
+                    <td>The muted attibute is used to specify that a video shouldn't have any sound when it is played. This is also useful for videos that are used as backgrounds. </td>
+                    <td><code>&lt;video muted&gt;&lt;/video&gt;</code></td>
+                  </tr>
+
+                  <tr>
+                    <td><b>Poster</b></td>
+                    <td>a url to an image </td>
+                    <td>The poster attribute is used to give the video a special image (also knows as a thumbnail) while it is loading, or while it had not been yet started by the user.</td>
+                    <td><code>&lt;video poster="insert image link here"&gt;&lt;/video&gt;</code></td>
+                  </tr>
+
+                  <tr>
+                    <td><b>Preload</b></td>
+                    <td>
+                      auto
+                      <br><br>
+                      metadata
+                      <br><br>
+                      none
+                    </td>
+                    <td>The preload attribute lets you decide when the browser should load the video when the website loads. 
+                      <br><br>
+                      Auto will load the entire video once the link is loaded, metadata will only load the metadata of the video and none won't load anything for the video, unless the video is played.
+                    </td>
+                    <td>
+                      <code>&lt;video preload="auto"&gt;&lt;/video&gt;</code>
+                      <br><br>
+                      <code>&lt;video preload="metadata"&gt;&lt;/video&gt;</code>
+                      <br><br>
+                      <code>&lt;video preload="none"&gt;&lt;/video&gt;</code>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><b>src</b></td>
+                    <td>Link for the video that you want to include</td>
+                    <td>The src attribute allows you to include the source of the video by using a video link.
+                      <br><br>
+                      <b>You should know that you can inlucde multiple sources if you include <code>source</code> tags (only opening) after the video opening tag</b>
+                    </td>
+                    <td>
+                      <code>&lt;video src="insert link here"&gt;&lt;/video&gt;</code>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><b>float</b></td>
+                    <td>
+                      none
+                      <br><br>
+                      left
+                      <br><br>
+                      right
+                      <br><br>
+                      initial
+                      <br><br>
+                      inherit
+                    </td>
+                    <td>The float attribute would let you customise where the video appears in the website. 
+                      <br><br>
+                      Left makes the video appear on the left side.
+                      <br><br>
+                      None makes the element not float at all and just appear relative to wherever the code for the video is.
+                      <br><br>
+                      Right makes the video appear on the right side.
+                      <br><br>
+                      Initial makes the video have default float settings.
+                      <br><br>
+                      Inherit uses float properties from the parent's float properties. 
+                      <b>You should know that you can inlucde multiple sources if you include <code>source</code> tags (only opening) after the video opening tag</b>
+                    </td>
+                    <td>
+                      <code>&lt;video src="insert link here"&gt;&lt;/video&gt;</code>
+                    </td>
+                  </tr>
+              </table>
+            </tbody>
+            <p>
+            Let's get some practise by including one of our own videos. Let's assume that we would want to include a video on the right of our image. In order to do that we 
+            would need to have a <code>float="right"</code>. Start by opening a video tag below the img tag. Next we want to include a source. Let's do this by using a <code>src=""</code> 
+            attribute. Use <a target="_blank" href="Images/iPad Commercial.mp4">this</a> link for the video. 
+            Include the link inside the source. Next we would want 
           </p>
         </div>
 
