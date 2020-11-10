@@ -3,7 +3,7 @@
   <head> <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="HandheldFriendly" content="true">
-    <title> HTML Crash Course: Step 1 </title>
+    <title> HTML Crash Course: HTML Basics </title>
     <link rel="shortcut icon" href="Images/Website_icon.ico" />
     <link rel="stylesheet" href="stylesheet.css">
     <a class="homepage_shortcut" href="index.html">
@@ -22,9 +22,7 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="Step_1.html">Step 1: Writing code</a>
-          <a href="#">Step 2: Designing the Website using CSS</a>
-          <a href="#">Tips and tricks!</a>
+          <a href="Step_1.html">Basics of HTML</a>
         </div>
       </div>
       <a class="source_button" href="Sources.html" target="_blank">Sources</a>
@@ -66,7 +64,7 @@
       </div>
       </div>
 
-      <h1 style="margin-top: 5%;"> Step 1: Writing the HTML code for your website </h1>
+      <h1 style="margin-top: 5%;"> Basics of HTML programming</h1>
 
       <h2> In order to start creating your website you would need to learn how to code in HTML. In this step you
       will learn basic HTML, in order to write all of the content of your website.
@@ -830,13 +828,16 @@
             <h3 style="margin-bottom: 3%;">Ordered and Unordered lists</h3>
           </div>
         </a>
+        <p>
+          <strong>Hey! This is the last section in my website and basically the last </strong>
+        </p>
     <script type="text/javascript">    
         var percent = document.getElementById("progressbar");
         var percent = document.getElementById("percent");
 
         var totalHeight = document.body.scrollHeight - window.innerHeight;
         window.onscroll = function(){
-          var progress = (window.pageYOffset / totalHeight) * 84;
+          var progress = (window.pageYOffset / totalHeight) * 100;
           progressbar.style.height = progress + "%";
           percent.innerHTML =  Math.round(progress) + "%"
         }
